@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="login-box" onsubmit="return validation()" class="bg-light">
+      <h1>Login</h1>
+      <div class="textbox">
+        <input type="text" placeholder="Username" />
+      </div>
+
+      <div class="textbox">
+        <input type="password" placeholder="Password" />
+      </div>
+
+      
+      <h4>Role</h4>
+
+      <div class="radio">
+        <label><input type="radio" name="Role" />Admin</label>
+      </div>
+
+      <div class="radio">
+        <label><input type="radio" name="Role" />Warden</label>
+      </div>
+
+      <div class="radio disabled">
+        <label><input type="radio" name="Role" />Student</label>
+      </div>
+      <input type="button" class="btn" value="Sign In" />
+      <button onclick="document.location='application.html'" class="btn">Sign Up</button>
+    </div>
+  </body>
+</html>
